@@ -153,6 +153,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 5
   _laser: {fileID: 7347286715538929356, guid: f798d8d0e534f284994580ac8ab50352, type: 3}
+  _tripleShoot: {fileID: 8928036339465174312, guid: dd282b7e91207cc47ab85d56f831e67d,
+    type: 3}
   _fireRate: 0.15
   _lives: 3
 --- !u!212 &86453847
@@ -354,8 +356,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enemy: {fileID: 9223349070108521395, guid: b336cd9678793f94d9097054c4c9f6c6, type: 3}
+  _tripleShotPowerUp: {fileID: 8607071543532481918, guid: e0eb0de321ef26f4bb96c8f03e054ab8,
+    type: 3}
   _enemyContainer: {fileID: 1385001944}
   _spawnSpeed: 5
+  _powerUpSpawnSpeed: 15
   _maxEnemy: 10
 --- !u!4 &830949799
 Transform:
